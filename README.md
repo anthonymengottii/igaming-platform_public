@@ -302,35 +302,35 @@ de tokens para validar as transações recebidas nos seguintes provedores:
 ## 📸 Screenshots
 
 ### Interface Principal
-![Interface Principal](screenshots/main.png)
+![Interface Principal](https://github.com/anthonymengottii/igaming-platform_public/blob/main/screenshots/main.png?raw=true)
 
 ### Painel Administrativo
 
 #### Configurações Gerais
-![Configurações do Sistema](screenshots/admin-settings.png)
+![Configurações do Sistema](https://github.com/anthonymengottii/igaming-platform_public/blob/main/screenshots/admin-settings.png?raw=true)
 
 #### Configurações de Gateways
-![Configurações de Gateways](screenshots/admin-settings-gateway.png)
+![Configurações de Gateways](https://github.com/anthonymengottii/igaming-platform_public/blob/main/screenshots/admin-settings-gateway.png?raw=true)
 
 #### Gerenciamento de Provedores
-![Gerenciamento de Provedores](screenshots/admin-providers.png)
+![Gerenciamento de Provedores](https://github.com/anthonymengottii/igaming-platform_public/blob/main/screenshots/admin-providers.png?raw=true)
 
 #### Customização
-![Customização do Sistema](screenshots/admin-customization.png)
+![Customização do Sistema](https://github.com/anthonymengottii/igaming-platform_public/blob/main/screenshots/admin-customization.png?raw=true)
 
 ### Interface do Usuário
 
 #### Jogos
-![Interface de Jogos](screenshots/game.png)
+![Interface de Jogos](https://github.com/anthonymengottii/igaming-platform_public/blob/main/screenshots/game.png?raw=true)
 
 #### Jogos Mobile
-![Interface Mobile](screenshots/game-mobile.png)
+![Interface Mobile](https://github.com/anthonymengottii/igaming-platform_public/blob/main/screenshots/game-mobile.png?raw=true)
 
 #### Depósitos
-![Sistema de Depósitos](screenshots/deposits.png)
+![Sistema de Depósitos](https://github.com/anthonymengottii/igaming-platform_public/blob/main/screenshots/deposits.png?raw=true)
 
 #### Idiomas
-![Seleção de Idiomas](screenshots/languages.png)
+![Seleção de Idiomas](https://github.com/anthonymengottii/igaming-platform_public/blob/main/screenshots/languages.png?raw=true)
 
 ## 🛠️ Tecnologias e Ferramentas
 
