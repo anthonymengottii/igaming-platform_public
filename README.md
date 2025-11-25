@@ -301,7 +301,36 @@ de tokens para validar as transações recebidas nos seguintes provedores:
 
 ## 📸 Screenshots
 
-_[Adicione screenshots do projeto aqui quando disponíveis]_
+### Interface Principal
+![Interface Principal](screenshots/main.png)
+
+### Painel Administrativo
+
+#### Configurações Gerais
+![Configurações do Sistema](screenshots/admin-settings.png)
+
+#### Configurações de Gateways
+![Configurações de Gateways](screenshots/admin-settings-gateway.png)
+
+#### Gerenciamento de Provedores
+![Gerenciamento de Provedores](screenshots/admin-providers.png)
+
+#### Customização
+![Customização do Sistema](screenshots/admin-customization.png)
+
+### Interface do Usuário
+
+#### Jogos
+![Interface de Jogos](screenshots/game.png)
+
+#### Jogos Mobile
+![Interface Mobile](screenshots/game-mobile.png)
+
+#### Depósitos
+![Sistema de Depósitos](screenshots/deposits.png)
+
+#### Idiomas
+![Seleção de Idiomas](screenshots/languages.png)
 
 ## 🛠️ Tecnologias e Ferramentas
 
