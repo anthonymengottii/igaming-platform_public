@@ -1,7 +1,7 @@
 <p align="center">
 <a href="https://github.com/anthonymengottii/igaming-platform_public"><img src="https://img.shields.io/badge/GitHub-Repository-blue?style=flat-square&logo=github" alt="GitHub Repository"></a>
 <a href="https://github.com/anthonymengottii/igaming-platform_public/stargazers"><img src="https://img.shields.io/github/stars/anthonymengottii/igaming-platform_public?style=flat-square" alt="GitHub Stars"></a>
-<a href="#-sobre-o-projeto"><img src="https://img.shields.io/badge/Status-Em%20Produção-green?style=flat-square" alt="Status"></a>
+<a href="https://usealpa.online/"><img src="https://img.shields.io/badge/Site-Em%20Produção-green?style=flat-square" alt="Site em Produção"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Laravel Version"></a>
 </p>
 
@@ -372,6 +372,8 @@ O projeto utiliza `nwidart/laravel-modules` para organização modular do códig
 ## 📌 Status do Projeto
 
 Este projeto está **em produção** e sendo continuamente melhorado com novas funcionalidades e otimizações.
+
+🌐 **Site em Produção:** [https://usealpa.online/](https://usealpa.online/)
 
 ## 📧 Contato
 
