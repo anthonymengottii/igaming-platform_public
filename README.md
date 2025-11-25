@@ -302,35 +302,35 @@ de tokens para validar as transações recebidas nos seguintes provedores:
 ## 📸 Screenshots
 
 ### Interface Principal
-![Interface Principal](https://github.com/anthonymengottii/igaming-platform_public/raw/main/screenshots/main.png)
+![Interface Principal](https://raw.githubusercontent.com/anthonymengottii/igaming-platform_public/main/screenshots/main.png)
 
 ### Painel Administrativo
 
 #### Configurações Gerais
-![Configurações do Sistema](https://github.com/anthonymengottii/igaming-platform_public/raw/main/screenshots/admin-settings.png)
+![Configurações do Sistema](https://raw.githubusercontent.com/anthonymengottii/igaming-platform_public/main/screenshots/admin-settings.png)
 
 #### Configurações de Gateways
-![Configurações de Gateways](https://github.com/anthonymengottii/igaming-platform_public/raw/main/screenshots/admin-settings-gateway.png)
+![Configurações de Gateways](https://raw.githubusercontent.com/anthonymengottii/igaming-platform_public/main/screenshots/admin-settings-gateway.png)
 
 #### Gerenciamento de Provedores
-![Gerenciamento de Provedores](https://github.com/anthonymengottii/igaming-platform_public/raw/main/screenshots/admin-providers.png)
+![Gerenciamento de Provedores](https://raw.githubusercontent.com/anthonymengottii/igaming-platform_public/main/screenshots/admin-providers.png)
 
 #### Customização
-![Customização do Sistema](https://github.com/anthonymengottii/igaming-platform_public/raw/main/screenshots/admin-customization.png)
+![Customização do Sistema](https://raw.githubusercontent.com/anthonymengottii/igaming-platform_public/main/screenshots/admin-customization.png)
 
 ### Interface do Usuário
 
 #### Jogos
-![Interface de Jogos](https://github.com/anthonymengottii/igaming-platform_public/raw/main/screenshots/game.png)
+![Interface de Jogos](https://raw.githubusercontent.com/anthonymengottii/igaming-platform_public/main/screenshots/game.png)
 
 #### Jogos Mobile
-![Interface Mobile](https://github.com/anthonymengottii/igaming-platform_public/raw/main/screenshots/game-mobile.png)
+![Interface Mobile](https://raw.githubusercontent.com/anthonymengottii/igaming-platform_public/main/screenshots/game-mobile.png)
 
 #### Depósitos
-![Sistema de Depósitos](https://github.com/anthonymengottii/igaming-platform_public/raw/main/screenshots/deposits.png)
+![Sistema de Depósitos](https://raw.githubusercontent.com/anthonymengottii/igaming-platform_public/main/screenshots/deposits.png)
 
 #### Idiomas
-![Seleção de Idiomas](https://github.com/anthonymengottii/igaming-platform_public/raw/main/screenshots/languages.png)
+![Seleção de Idiomas](https://raw.githubusercontent.com/anthonymengottii/igaming-platform_public/main/screenshots/languages.png)
 
 ## 🛠️ Tecnologias e Ferramentas
 
