@@ -301,36 +301,56 @@ de tokens para validar as transações recebidas nos seguintes provedores:
 
 ## 📸 Screenshots
 
+> **Nota:** As imagens podem levar alguns segundos para carregar devido ao tamanho dos arquivos.
+
 ### Interface Principal
-![Interface Principal](screenshots/main.png)
+<p align="center">
+  <img src="screenshots/main.png" alt="Interface Principal" width="800"/>
+</p>
 
 ### Painel Administrativo
 
 #### Configurações Gerais
-![Configurações do Sistema](screenshots/admin-settings.png)
+<p align="center">
+  <img src="screenshots/admin-settings.png" alt="Configurações do Sistema" width="800"/>
+</p>
 
 #### Configurações de Gateways
-![Configurações de Gateways](screenshots/admin-settings-gateway.png)
+<p align="center">
+  <img src="screenshots/admin-settings-gateway.png" alt="Configurações de Gateways" width="800"/>
+</p>
 
 #### Gerenciamento de Provedores
-![Gerenciamento de Provedores](screenshots/admin-providers.png)
+<p align="center">
+  <img src="screenshots/admin-providers.png" alt="Gerenciamento de Provedores" width="800"/>
+</p>
 
 #### Customização
-![Customização do Sistema](screenshots/admin-customization.png)
+<p align="center">
+  <img src="screenshots/admin-customization.png" alt="Customização do Sistema" width="800"/>
+</p>
 
 ### Interface do Usuário
 
 #### Jogos
-![Interface de Jogos](screenshots/game.png)
+<p align="center">
+  <img src="screenshots/game.png" alt="Interface de Jogos" width="800"/>
+</p>
 
 #### Jogos Mobile
-![Interface Mobile](screenshots/game-mobile.png)
+<p align="center">
+  <img src="screenshots/game-mobile.png" alt="Interface Mobile" width="400"/>
+</p>
 
 #### Depósitos
-![Sistema de Depósitos](screenshots/deposits.png)
+<p align="center">
+  <img src="screenshots/deposits.png" alt="Sistema de Depósitos" width="800"/>
+</p>
 
 #### Idiomas
-![Seleção de Idiomas](screenshots/languages.png)
+<p align="center">
+  <img src="screenshots/languages.png" alt="Seleção de Idiomas" width="800"/>
+</p>
 
 ## 🛠️ Tecnologias e Ferramentas
 
