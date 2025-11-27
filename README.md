@@ -418,6 +418,94 @@ O projeto utiliza `nwidart/laravel-modules` para organização modular do códig
    - Desafio: Otimizar queries e melhorar performance
    - Solução: Refatoração de queries N+1, implementação de eager loading e cache estratégico
 
+## 🆕 Melhorias Recentes (2024-2025)
+
+### 💰 Sistema de Ganhos e Rollover
+
+#### Correção: Ganhos dos Jogos
+- **Problema corrigido:** Ganhos dos jogos não estavam disponíveis para saque quando havia rollover ativo
+- **Solução implementada:** Ganhos agora são creditados diretamente em `balance_withdrawal` (disponível para saque)
+- **Comportamento:**
+  - Ganhos sempre vão para `balance_withdrawal`, independentemente do rollover
+  - Rollover se aplica apenas ao depósito inicial, não aos ganhos
+  - Usuários podem sacar ganhos imediatamente após vencer
+
+#### Sistema de Depósitos
+- **Lógica de rollover aprimorada:**
+  - Se rollover desabilitado: depósitos vão direto para `balance_withdrawal`
+  - Se rollover habilitado: depósitos vão para `balance` com rollover configurado
+- **Transparência:** Sistema agora documenta claramente onde cada valor é creditado
+
+### 💸 Sistema de Saques
+
+#### Melhorias Implementadas
+- **Validações aprimoradas:**
+  - Verificação de saldo disponível com mensagens detalhadas
+  - Validação de limites diários, semanais, mensais e anuais
+  - Verificação de valores mínimos e máximos
+- **Correção de formatação:**
+  - Valores de saque mínimo e máximo agora são formatados corretamente
+  - Correção automática de valores em centavos (ex: 500000 → 5000.00)
+  - Cast decimal:2 em `min_withdrawal` e `max_withdrawal` no model Setting
+- **Interface administrativa:**
+  - Ações explícitas de aprovação de saques
+  - Integração com SuitPay para processamento
+  - Filtros avançados para busca de saques
+  - Status visual com cores (Pendente, Aprovado, Cancelado)
+
+### 📊 Sistema de Transações
+
+#### Nova Funcionalidade
+- **Resource de Transações no Admin:**
+  - Visualização completa de todas as transações financeiras
+  - Filtros por status, método de pagamento, data e valor
+  - Badge de notificação com quantidade de transações pendentes
+  - Busca global por usuário, payment_id e referência
+- **Correções na tela do usuário:**
+  - Ordenação de depósitos por data (mais recentes primeiro)
+  - Correção de formatação de moeda com fallback para moeda da carteira
+  - Tratamento de valores nulos e indefinidos
+
+### 🔧 Melhorias Técnicas
+
+#### Tratamento de Erros
+- **Função `currencyFormat` aprimorada:**
+  - Tratamento robusto de valores `null` e `undefined`
+  - Fallback automático para moeda padrão (BRL)
+  - Try-catch para prevenir erros de formatação
+  - Conversão automática para uppercase
+
+#### Logs e Debugging
+- **Logs detalhados em operações críticas:**
+  - Logs de saques com informações completas
+  - Logs de processamento de pagamentos
+  - Logs de webhooks com dados completos
+  - Facilita debugging e auditoria
+
+### 📚 Documentação de Código
+
+#### PHPDoc Completo
+- **Métodos principais documentados:**
+  - `Core::payWithRollover()` - Lógica complexa de rollover documentada
+  - `Core::DiscountBalance()` - Priorização de saldos documentada
+  - `UpayTrait::finalizePayment()` - Processamento de pagamentos documentado
+  - `WalletController::requestWithdrawal()` - Fluxo de saque documentado
+- **Características da documentação:**
+  - Descrições detalhadas de comportamento
+  - Exemplos de uso práticos
+  - Documentação de parâmetros e retornos
+  - Referências cruzadas com `@see`
+  - Documentação de exceções possíveis
+
+### 🐛 Correções de Bugs
+
+#### Correções Aplicadas
+- ✅ Ganhos não disponíveis para saque quando rollover ativo
+- ✅ Valores de saque mínimo/máximo exibidos incorretamente (500000.00 → 5000.00)
+- ✅ Transações pagas aparecendo como pendentes
+- ✅ Formatação de moeda com valores nulos causando erros
+- ✅ Ordenação incorreta de depósitos na tela do usuário
+
 ## 📌 Status do Projeto
 
 Este projeto está **em produção** e sendo continuamente melhorado com novas funcionalidades e otimizações.
