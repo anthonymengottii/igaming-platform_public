@@ -223,6 +223,17 @@ com várias integrações com diferentes provedores de jogos e gateways de pagam
 - Comentários e documentação melhorados
 - Nomes de variáveis e métodos mais descritivos
 
+#### Documentação de Código (PHPDoc)
+- **PHPDoc completo** em todos os métodos públicos principais
+- Documentação detalhada de métodos complexos com exemplos
+- Documentação de parâmetros, retornos e exceções
+- Referências cruzadas entre métodos relacionados
+- Arquivos principais documentados:
+  - `app/Helpers/Core.php` - Métodos principais de lógica de negócio
+  - `app/Http/Controllers/Api/Profile/WalletController.php` - Controller de carteira
+  - `app/Traits/Gateways/UpayTrait.php` - Integração com gateway U Pay Brasil
+  - `app/Models/Wallet.php` - Model de carteira com accessors documentados
+
 #### Tratamento de Erros
 - Sistema de exceções personalizadas
 - Melhor tratamento de erros em APIs
